@@ -1,10 +1,10 @@
 import * as React from 'react';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
+import {Colors} from '../themes/Colors';
+import Icons from 'react-native-vector-icons/AntDesign';
 import Upcoming from '../screens/menuUser/UpcomingScreen';
 import Completed from '../screens/menuUser/CompletedScreen';
 import AddConference from '../screens/menuUser/AddScreen';
-import {Colors} from '../themes/Colors';
-import Icons from 'react-native-vector-icons/AntDesign';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -12,16 +12,14 @@ export default function Navegation() {
   return (
     <Tab.Navigator
       tabBarOptions={{
-        showIcon: true, //Propertie to show icons in the top tab bar
-        activeTintColor: Colors.activeTab, //Color of the selected button
-        inactiveTintColor: Colors.inactiveTab, // Color of the unselected button
+        showIcon: true,
+        activeTintColor: Colors.activeTab,
+        inactiveTintColor: Colors.inactiveTab,
         pressColor: Colors.pressColor,
         pressOpacity: Colors.pressColor,
-        // Style object for the tab bar
         style: {
           height: 80,
         },
-        //This is the style of the thin line
         indicatorStyle: {
           backgroundColor: Colors.activeTab,
         },
