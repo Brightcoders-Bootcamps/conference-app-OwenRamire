@@ -3,8 +3,6 @@
 # score with CodeFactor
 [Score](https://www.codefactor.io/repository/github/brightcoders-bootcamps/conference-app-owenramire)
 
-Escribe aquí los pasos para ejecutar/probar tu proyecto y el nombre de los integrantes de tu equipo
-
 ## Setup for navigation
 1. We are going to use [React Navigation](https://reactnavigation.org/docs/getting-started/) for navigate between screens also we need a [Top Tab Navigator](https://reactnavigation.org/docs/material-top-tab-navigator)
     - Run `npm install @react-navigation/native`  
