@@ -6,5 +6,6 @@ export const Colors = {
   pressColor: '#F0F1F6',
   topLeftCorner: '#FC6076',
   bottomRightCorner: '#FD7C5C',
-  dateColor: '#FD795F', 
+  dateColor: '#FD795F',
+  backgroundScreen: '#F8F8F8', 
 };
