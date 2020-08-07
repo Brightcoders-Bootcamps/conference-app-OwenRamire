@@ -1,5 +1,9 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet
+} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {Colors} from '../themes/Colors';
 import {upcomingEvents} from '../events/UpcomingEvents';
