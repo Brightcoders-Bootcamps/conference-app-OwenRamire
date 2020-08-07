@@ -3,12 +3,13 @@ import {
   SafeAreaView,
   StyleSheet,
   View,
-  Text,
   ScrollView,
+  FlatList,
 } from 'react-native';
 import {Colors} from '../../themes/Colors';
 import TodayCard from '../../components/todayCard';
 import NextEvents from '../../components/nextEventsCard';
+import {upcomingEvents} from '../../events/UpcomingEvents';
 
 export default function Upcoming() {
   return (
@@ -16,8 +17,11 @@ export default function Upcoming() {
       <ScrollView>
         <TodayCard />
         {/* This view is for helping me with the background color and the responsive design   */}
-        <View style={styles.auxContainer}> 
-          <NextEvents />
+        <View style={styles.auxContainer}>
+          <FlatList 
+            data={upcomingEvents}
+            renderItem={({item}) => <NextEvents data={item}/>}
+          />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -32,7 +36,8 @@ const styles = StyleSheet.create({
   auxContainer: {
     flex: 1,
     marginHorizontal: 20,
-    marginTop: 30,
+    marginVertical: 30,
+    paddingBottom: 30,
     backgroundColor: Colors.white,
   },
   
