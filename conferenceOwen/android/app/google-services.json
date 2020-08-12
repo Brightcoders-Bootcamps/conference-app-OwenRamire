@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "268184057885",
+    "firebase_url": "https://conferences-app-2794a.firebaseio.com",
+    "project_id": "conferences-app-2794a",
+    "storage_bucket": "conferences-app-2794a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268184057885:android:554eade5ebc39469556ef4",
+        "android_client_info": {
+          "package_name": "com.conferenceowen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268184057885-ruq0hg3adu73m9rr56c7edvjki8gfahq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9sbzK-ObAeo41qXhaBTr-8gqNsQ4e9aU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268184057885-ruq0hg3adu73m9rr56c7edvjki8gfahq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
