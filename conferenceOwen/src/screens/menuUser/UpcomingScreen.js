@@ -16,7 +16,6 @@ export default function Upcoming() {
     <SafeAreaView style={styles.mainContainer}>
       <ScrollView>
         <TodayCard />
-        {/* This view is for helping me with the background color and the responsive design   */}
         <View style={styles.auxContainer}>
           <FlatList 
             data={upcomingEvents}
