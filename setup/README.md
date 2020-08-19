@@ -15,3 +15,14 @@
         - A quick option to both platforms `react-native link`. 
         Run: `react-native link react-native-vector-icons` or `npx react-native link react-native-vector-icons`
         - For more information go to the documentation of [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+
+## Linear gradients
+We need to use the `<LinearGradient>` component of [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient) 
+- ### install
+  - With YARN run: `yarn add react-native-linear-gradient`
+  - With NPM RUN: `npm install react-native-linear-gradient --save``
+    - With RN  >= 0.60 run: `npx pod-install`
+- ### Linking
+  - If you use React Native >= 0.60 you don't need to link *react-native-linear-gradient*
+  - If you use **React Native <= 0.59** link with `react-native link react-native-linear-gradient`
+  - If you want to do it manual just follow the instruction in the [manual part](https://github.com/react-native-community/react-native-linear-gradient#manual)
