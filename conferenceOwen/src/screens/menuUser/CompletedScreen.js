@@ -4,6 +4,7 @@ import {
   Text,
   StyleSheet
 } from 'react-native';
+import {Colors} from '../../themes/Colors';
 
 export default function Completed() {
   return (
@@ -18,6 +19,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: Colors.backgroundScreen,
   },
   title: {
     fontSize: 20,
