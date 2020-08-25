@@ -26,3 +26,8 @@ We need to use the `<LinearGradient>` component of [react-native-linear-gradient
   - If you use React Native >= 0.60 you don't need to link *react-native-linear-gradient*
   - If you use **React Native <= 0.59** link with `react-native link react-native-linear-gradient`
   - If you want to do it manual just follow the instruction in the [manual part](https://github.com/react-native-community/react-native-linear-gradient#manual)
+
+## React-native-firebase 
+This library will help us to use the Firebase services in our app. We need to install *react-native-firebase* with NPM or YARN:
+- NPM: `npm install --save @react-native-firebase/app`
+- YARN: `yarn add @react-native-firebase/app`
